@@ -41,6 +41,34 @@ npm run lint
 npm run serve
 ```
 
+## Deploy To GitHub
+
+Create an empty GitHub repository named `nazia-zazai-portfolio`, then run:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/nazia-zazai-portfolio.git
+git push -u origin main
+```
+
+## Deploy To Vercel
+
+After the GitHub push, go to Vercel and import the GitHub repository.
+
+Vercel settings are already configured:
+
+```text
+Framework: Vite
+Build Command: npm run build
+Output Directory: dist
+```
+
+You can also deploy with the CLI after logging in:
+
+```bash
+npx vercel login
+npx vercel --prod
+```
+
 ## Notes
 
 The CV is available at `public/nazia-zazai-cv.pdf`.
