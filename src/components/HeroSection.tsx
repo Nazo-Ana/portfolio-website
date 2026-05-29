@@ -10,7 +10,7 @@ import {
   Sparkles,
   Zap,
 } from 'lucide-react'
-import naziaPortrait from '../assets/nazia-portrait.png'
+import naziaPortrait from '../assets/Nazia.jpeg'
 import { fadeInUp, staggerContainer } from '../animations/variants'
 import { profile, socialLinks } from '../constants/site'
 import { heroRoles } from '../data/portfolio'
